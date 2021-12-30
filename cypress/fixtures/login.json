@@ -1,0 +1,9 @@
+{
+    "user": {
+        "email": "hsimpson@example.com",
+        "username": "hsimpson",
+        "bio": null,
+        "image": null,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhzaW1wc29uQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJoc2ltcHNvbiIsInBhc3N3b3JkIjoiJDJhJDEwJEVkMUplM3M0RjZRWXRVTW4ubUlYZU9IdVN2WTd6RDVJd0h5SVdNaUVCNERvM2ozWXdSS1BPIiwiYmlvIjpudWxsLCJpbWFnZSI6Imh0dHBzOi8vYXBpLnJlYWx3b3JsZC5pby9pbWFnZXMvc21pbGV5LWN5cnVzLmpwZWciLCJpYXQiOjE2NDAyMTg1OTAsImV4cCI6MTY0NTQwMjU5MH0.PVZME57U7B11PVpRlq2_I-583HhiOI5GkxWgApcEeCc"
+    }
+}

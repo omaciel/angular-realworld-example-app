@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.3560" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-29T14:48:59" tests="0" file="cypress/integration/firstTest.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Test with backend" timestamp="2021-12-29T14:48:59" tests="6" time="9.3290" failures="0">
+    <testcase name="Test with backend verify correct request and response" time="2.7450" classname="verify correct request and response">
+    </testcase>
+    <testcase name="Test with backend intercepting and modifying a request and response" time="2.3420" classname="intercepting and modifying a request and response">
+    </testcase>
+    <testcase name="Test with backend should get tags from fixture" time="0.7760" classname="should get tags from fixture">
+    </testcase>
+    <testcase name="Test with backend verify global feed likes count" time="0.9100" classname="verify global feed likes count">
+    </testcase>
+    <testcase name="Test with backend delete a new API article using the  UI" time="1.4920" classname="delete a new API article using the  UI">
+    </testcase>
+    <testcase name="Test with backend delete a new API article using the API" time="0.9900" classname="delete a new API article using the API">
+    </testcase>
+  </testsuite>
+</testsuites>

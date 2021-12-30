@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-30T15:18:31.924Z",
+    "end": "2021-12-30T15:18:33.072Z",
+    "duration": 1148,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f9bb6753-ca24-408d-b4d1-c07811c73283",
+      "title": "",
+      "fullFile": "cypress/integration/apiTests.spec.js",
+      "file": "cypress/integration/apiTests.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2722a240-f4cc-4047-a981-9b93e0db7b9d",
+          "title": "Perform API tests via Cypress",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "tricks the API to return article from fixture",
+              "fullTitle": "Perform API tests via Cypress tricks the API to return article from fixture",
+              "timedOut": null,
+              "duration": 1080,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('simpleArticle').then(file => {\n  const slug = file.article.slug;\n  cy.intercept('GET', '**/articles/' + slug, file);\n  cy.visit('/article/' + slug);\n  cy.get('h1').should('contain', file.article.title);\n});",
+              "err": {},
+              "uuid": "e812757a-9d0e-4b70-a481-5b00f93e1043",
+              "parentUUID": "2722a240-f4cc-4047-a981-9b93e0db7b9d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e812757a-9d0e-4b70-a481-5b00f93e1043"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1080,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

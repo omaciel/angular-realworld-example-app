@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-30T16:18:37.560Z",
+    "end": "2021-12-30T16:18:41.608Z",
+    "duration": 4048,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dbcdea08-42f2-4cdc-a804-61dcd4434ff3",
+      "title": "",
+      "fullFile": "cypress/integration/visual.spec.js",
+      "file": "cypress/integration/visual.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "88b259ab-be9f-4cb2-8c12-c262769904d6",
+          "title": "visual test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should test snapshot",
+              "fullTitle": "visual test should test snapshot",
+              "timedOut": null,
+              "duration": 1744,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\ncy.contains('Gerome').then(authorName => {\n  cy.wrap(authorName).toMatchImageSnapshot(); // To take snapshot of entire document\n  cy.document().toMatchImageSnapshot();\n});",
+              "err": {},
+              "uuid": "b9ee7567-50db-44ec-93b6-022c69a88691",
+              "parentUUID": "88b259ab-be9f-4cb2-8c12-c262769904d6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b9ee7567-50db-44ec-93b6-022c69a88691"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1744,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

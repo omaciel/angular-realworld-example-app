@@ -1,0 +1,23 @@
+{
+    "article": {
+        "title": "The Big Score Barnes Noble",
+        "slug": "The-Big-Score-Barnes-Noble",
+        "body": "I'm still trying to come to grasps with the knowledge that my upcoming YA book 'The Big Score' is now available on BARNES AND NOBLE (and Amazon too, but still, BARNES AND NOBLE!!!) for preorder!!!",
+        "description": "My book is available for preorder",
+        "createdAt": "2021-12-23T19:47:40.401Z",
+        "updatedAt": "2021-12-23T19:47:40.401Z",
+        "tagList": [
+            "young adult",
+            "book"
+        ],
+        "favoritesCount": 56,
+        "favorited": false,
+        "author": {
+            "username": "hsimpson",
+            "bio": null,
+            "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+            "followedBy": [],
+            "following": false
+        }
+    }
+}

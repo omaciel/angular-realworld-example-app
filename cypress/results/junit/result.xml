@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2021-12-29T14:48:55" tests="0" file="cypress/integration/apiTests.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Perform API tests via Cypress" timestamp="2021-12-29T14:48:55" tests="1" time="0.9820" failures="0">
+  
+  <testcase name="Perform API tests via Cypress tricks the API to return article from fixture" time="0.9630" classname="tricks the API to return article from fixture"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-12-29T14:49:09" tests="0" file="cypress/integration/secondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test logout" timestamp="2021-12-29T14:49:09" tests="1" time="1.3660" failures="0">
+  
+  <testcase name="Test logout verify user can log out successfuly" time="1.3360" classname="verify user can log out successfuly"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2021-12-29T14:48:59" tests="0" file="cypress/integration/firstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with backend" timestamp="2021-12-29T14:48:59" tests="6" time="9.3290" failures="0">
+  
+  <testcase name="Test with backend verify correct request and response" time="2.7450" classname="verify correct request and response"></testcase>
+  
+  <testcase name="Test with backend intercepting and modifying a request and response" time="2.3420" classname="intercepting and modifying a request and response"></testcase>
+  
+  <testcase name="Test with backend should get tags from fixture" time="0.7760" classname="should get tags from fixture"></testcase>
+  
+  <testcase name="Test with backend verify global feed likes count" time="0.9100" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with backend delete a new API article using the  UI" time="1.4920" classname="delete a new API article using the  UI"></testcase>
+  
+  <testcase name="Test with backend delete a new API article using the API" time="0.9900" classname="delete a new API article using the API"></testcase>
+  
+</testsuite>
+
+</testsuites>

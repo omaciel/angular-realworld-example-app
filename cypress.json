@@ -1,0 +1,22 @@
+{
+    "baseUrl": "http://localhost:4200",
+    "ignoreTestFiles": [
+        "**/examples/*",
+        "**/__snapshots__/*",
+        "**/__image_snapshots__/*"
+    ],
+    "video": false,
+    "retries": {
+        "runMode": 2,
+        "openMode": 1
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+    "env": {
+        "username": "hsimpson@example.com",
+        "password": "password",
+        "apiUrl": "https://conduit.productionready.io/"
+    }
+}

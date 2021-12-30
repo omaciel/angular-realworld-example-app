@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.1480" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-12-30T15:18:31" tests="0" file="cypress/integration/apiTests.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Perform API tests via Cypress" timestamp="2021-12-30T15:18:31" tests="1" time="1.1380" failures="0">
+    <testcase name="Perform API tests via Cypress tricks the API to return article from fixture" time="1.0800" classname="tricks the API to return article from fixture">
+    </testcase>
+  </testsuite>
+</testsuites>
